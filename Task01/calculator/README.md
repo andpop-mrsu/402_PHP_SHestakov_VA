@@ -5,18 +5,22 @@
 ## Установка
 
 \`\`\`bash
-composer global require your_github_username/calculator
+git clone https://github.com/Baklaniso/calculator.git
+cd calculator
 \`\`\`
 
-## Использование
+# 2. Установить зависимости
+composer install
 
-\`\`\`bash
-calculator
-\`\`\`
+# 3. Сгенерировать автозагрузку
+composer dump-autoload -o
+
+# 4. Запустить игру
+./bin/calculator
 
 ## Packagist
 
-https://packagist.org/packages/your_github_username/calculator
+https://packagist.org/packages/baklaniso/calculator
 
 ## Лицензия
 
