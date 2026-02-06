@@ -1,0 +1,21 @@
+{
+    "name": "baklaniso/calculator",
+    "description": "Console calculator game",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+    "psr-4": {
+        "Baklaniso\\Calculator\\": "src/"
+    }
+},
+    "bin": [
+    "bin/calculator"
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "wp-cli/php-cli-tools": "^0.12.7"
+    },
+    "require-dev": {
+        "squizlabs/php_codesniffer": "^4.0"
+    }
+}
