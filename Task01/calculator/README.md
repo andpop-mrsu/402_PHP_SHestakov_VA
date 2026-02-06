@@ -3,11 +3,10 @@
 Консольная игра "Калькулятор" - арифметический тренажер.
 
 ## Установка
-
-\`\`\`bash
 git clone https://github.com/Baklaniso/calculator.git
+
 cd calculator
-\`\`\`
+
 
 # 2. Установить зависимости
 composer install
