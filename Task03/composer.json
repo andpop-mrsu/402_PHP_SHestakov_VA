@@ -1,0 +1,11 @@
+{
+    "name": "baklaniso/calculator-slim",
+    "description": "Calculator game",
+    "type": "project",
+    "license": "MIT",
+    "minimum-stability": "stable",
+    "require": {
+        "slim/slim": "^4.0",
+        "slim/psr7": "^1.0"
+    }
+}

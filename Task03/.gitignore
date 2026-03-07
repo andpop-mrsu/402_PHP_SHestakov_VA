@@ -1,0 +1,3 @@
+# Игнорируем зависимости Composer
+/vendor/
+composer.lock
